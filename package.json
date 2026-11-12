@@ -1,14 +1,14 @@
 {
-  "name": "levanter",
+  "name": "lord-mini",
   "version": "6.2.3",
-  "description": "Levanter — a powerful multi-session WhatsApp bot built on Baileys, with a plugin system, group moderation, media tools, and an API for sending and receiving messages via webhooks.",
+  "description": "LORD MINI — a powerful multi-session WhatsApp bot built on Baileys, with a plugin system, group moderation, media tools, and an API for sending and receiving messages via webhooks.",
   "keywords": [
     "whatsapp",
     "whatsapp-bot",
     "whatsapp-api",
     "whatsapp-automation",
     "baileys",
-    "levanter",
+    "lord-mini",
     "wa-bot",
     "chatbot",
     "bot",
@@ -24,9 +24,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "docker": "pm2-runtime start . --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name lord-mini",
+    "docker": "pm2-runtime start . --name lord-mini",
+    "stop": "pm2 stop lord-mini",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.34.5"
   },
   "author": "",
